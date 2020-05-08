@@ -1,0 +1,11 @@
+n = input("enter any number ");
+n = int (n);
+s1 = 0;
+s2 = 0;
+print(s1);
+print(s2);
+for i in range(0,n):
+   s = s1 + s2;
+   print(s);
+   s1 = s2;
+   s2 = s;
