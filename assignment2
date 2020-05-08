@@ -1,0 +1,7 @@
+list1 = input("enter the elements");
+list1 = list1.split(",");
+for i in range(0,len(list1)):
+  list1[i] = int(list1[i]);
+for i in range(0,len(list1)):
+  if list1[i] > 0;
+     print(list1[i]);
